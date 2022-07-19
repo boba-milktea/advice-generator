@@ -30,7 +30,7 @@ Users should be able to:
 
 ![Desktop version](./images/desktop.png)
 ![Mobile version](./images/mobile.png)
-![Active status](./images/active)
+![Active status](./images/active.png)
 
 
 
