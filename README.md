@@ -28,11 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop version](./images/desktop.png)
-![Mobile version](./images/mobile.png)
-![Active status](./images/active.png)
-
-
+- Desktop version <img src="./images/desktop.png" width="600">
+- Active <img src="./images/active.png" width="600">
+- Mobile version <img src="./images/mobile.png" height="400">
 
 ### Links
 
