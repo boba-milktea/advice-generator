@@ -5,8 +5,9 @@ const dice = document.querySelector(".btn");
 
 
 dice.addEventListener("click", async function getAdvice() {
+    const random = Math.floor(Math.random() * 200);
     try {
-        const res = await axios.get("https://api.adviceslip.com/advice")
+        const res = await axios.get(`https://api.adviceslip.com/advice/${random}`); 
         let advice = res.data.slip;
         showAdvice(advice);
         console.log(advice);
