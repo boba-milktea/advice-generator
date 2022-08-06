@@ -32,6 +32,9 @@ Users should be able to:
 - Active <img src="./images/active.png" width="600">
 - Mobile version <img src="./images/mobile.png" height="400">
 
+
+
+
 ### Links
 
 - Solution URL: [Git Repository](https://github.com/boba-milktea/advice-generator.git)
@@ -51,12 +54,17 @@ Users should be able to:
 
 Through this project, I have practiced [Axios](https://axios-http.com/docs/intro), a promised based HTTP client for node.js and the browser, the Async function. And how to scale a text to fit inside an element. 
 
+**06-08-22 added `fetch()` method, and `{catch : no catch}`** which solved the problem of no response of browsers (in my case, firefox). [The cache property](https://developer.mozilla.org/en-US/docs/Web/API/Request/cache). **Special thanks to [@elaineleung](https://github.com/elaineleung) and [@anas-cd](https://github.com/anas-cd) for ***Advice*****.
+
+
+
 
 ### Continued development
 
 I am not sure I used correctly Axios and the async function. 
-The page is working in Chrome but not responding in firefox after the first request. 
-Some advice contains spcial charactors that can't be present correctly. There must be a solution for this. 
+- [x] The page is working in Chrome but not responding in firefox after the first request. **06-08-22 Resolved.** 
+- [ ] Some advice contains spcial charactors that can't be present correctly. There must be a solution for this. 
+
 
 ### Useful resources
 
